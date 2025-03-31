@@ -77,7 +77,7 @@ In your Confluent Cloud account.
 
 * Save the schema
 
-Next, we are going to create a topic to sink anamolies to.
+Next, we are going to create a topic to sink anomalies to.
 
 * Go to your Kafka cluster and click on **Topics** in the sidebar.
 * Name the topic as `sensor_anomalies`.
@@ -225,7 +225,7 @@ To run PyFlink, you need to include the Java dependencies for Kafka.
 * Download [flink-sql-connector-kafka-3.0.1-1.18.jar](https://mvnrepository.com/artifact/org.apache.flink/flink-sql-connector-kafka) and place the *.jar file in the /lib directory.
 * Download [flink-clients-2.0.0.jar](https://mvnrepository.com/artifact/org.apache.flink/flink-clients) and place the *.jar file in the /lib directory.
 
-### Run the anamoly detection example
+### Run the anomaly detection example
 
 1. In a terminal, navigate to your project directory. Run the app with the following command:
 ```shell
